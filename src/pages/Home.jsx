@@ -51,7 +51,7 @@ const Home = () => {
             key={idx}
             className={`slide ${index === idx ? "active" : ""}`}
             style={{
-              backgroundImage: `url(/images/${img.src})`, //${process.env.Public_URL}배포할 때, pakage.json 에 Homepage : "내 git 주소"
+              backgroundImage: `url(${process.env.Public_URL}/${img.src})`, //${process.env.Public_URL}배포할 때, pakage.json 에 Homepage : "내 git 주소"
             }} // 스타일이라서 중괄호 두개임. 중괄호 하나는 자바스크립트로 인식하기 때문
           >
             <h1
