@@ -1,0 +1,59 @@
+.guest-outbox {
+    /* border: 1px solid red; */
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.guest-outbox h1 {
+    text-align: center;
+    margin: 3rem;
+}
+
+.formClass {
+    height: 11rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 20%;
+    height: 2rem;
+    margin: auto;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 5rem;
+}
+
+.messageArea {
+    margin: auto;
+}
+
+.message-card {
+    border: 1px solid white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.messageArea p {
+    line-height: 2rem;
+}
+
+button {
+    display: block;
+    border: none;
+    width: 20%;
+    height: 2rem;
+    text-align: center;
+    margin: auto;
+}
